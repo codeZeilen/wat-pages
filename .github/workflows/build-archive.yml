@@ -23,7 +23,7 @@ jobs:
         pip install -r requirements.txt
     - name: Build pages
       run: |
-        python3 bundle-archive.py fs-path-pages/ > fs-path-pages/index.json
+        python3 build-index.py fs-path-pages/ > fs-path-pages/index.json
     - name: Bundle archive
       run: |
         cd fs-path-pages; zip fs-path-pages.zip ./*.md ./*.json
