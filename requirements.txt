@@ -1,1 +1,1 @@
-wat @ git+https://github.com/codeZeilen/wat@main
+wat-terminal @ git+https://github.com/codeZeilen/wat@main
