@@ -1,0 +1,5 @@
+---
+path: /home/*/.ssh/known_hosts
+---
+
+A list of hosts the user has connected to and their keys. Hosts you connect to are checked against this list. If the key changed, you will receive a warning. 
