@@ -1,0 +1,5 @@
+---
+path: /home/*/.ssh
+---
+
+A folder for ssh configuration and key files specific to one user.
