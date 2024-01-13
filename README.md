@@ -6,7 +6,7 @@ Currently, it only contains the pages on names in the filesystem (`fs-path-pages
 
 ## Page Format
 
-The pages are written in Markdown. Pages can have a header. 
+The pages are written in Markdown. Pages must have a header that contains at least the path field. 
 
 ```
 ---
